@@ -48,9 +48,9 @@ app.post("/add", function (req, res) {
           }
           console.log("New employee has been added!");
           res.send(
-            "New employee has been added into the database with ID = " +
+            "New movie has been added into the database with Movie = " +
               req.body.id +
-              " and Name = " +
+              " and directer = " +
               req.body.name
           );
         }
